@@ -1,48 +1,22 @@
-# VuejsFire Hackathon Starter
+# WiCS Event Check-Ins
 
-VuejsvFire is a project starter kit based on [Vue.js]() JavaScript framework and [Firebase]() as backend. This starter kit is actually born out of my side-project [Tolks]().
+## Inspiration
+The struggle of creating Google sign in form for every event, and manually having to track attendance. We also wanted to tackle the low attendance issue that we've been having with virtual events. One of the issues was a lack of reliable communication with WiCS members, that we aren't able to solve with just a messaging app or social media. The goal is to bridge the communication gap that we're currently experiencing. 
 
----
-[Demo](http://kushagragour.in/vuejsfire-hackathon-starter/) • [Features](#features) • [Ingredients](#ingredients) • [Getting Started](#getting-started-with-development) • [Deployment](#deployment) • [Detailed Wiki](https://github.com/chinchang/vuejsfire-hackathon-starter/wiki/)
----
+## What it does
+As officers of the Women in Computer Science organization, we want to streamline sign ins for events and communication between the officers and members. This app is a central location to sign in to WiCS events. Members can submit feedback about an event as well, and are notified about upcoming events. Though this app isn't fully functioning as of yet, we hope to get it working to use in the future. 
 
-![](/screenshots/screenshot1.png)
+## How we built it
+We used Firebase forthe backend work. Specifically, we use the Authentication feature provided by GCP and a basic Firestore database. 
 
-### Features
+## Challenges we ran into
+Since both of us are beginners to GCP and Firebase (and Hackathons!), we had some isses with deployment and initalizing a project from the ground up. After many failed attempts to deploy our web app that we wrote from scratch, we ended up turning to a template we forked from GitHub to give ourselves a better starting place. You can find the GitHub we forked from [here](https://github.com/chinchang/vuejsfire-hackathon-starter).
 
-- Built over Vuejs' [webpack-simple template](https://github.com/vuejs-templates/webpack-simple)
-- ES6 ready
-- Single file components
-- In-built User Module
-- Twitter/Facebook Authentication
-- In-built notification system
-- Beautiful design and experience
-- Responsive UI
+## Accomplishments that we're proud of
+One thing that we're proud of, is that we were able to identify a problem and come up with a practical and effective solution to solve it. Although we didn't have the chance to comepletely flesh out and implement all of the features and aspects we had originally thought of, we're happy to have made the progress that we did. 
 
-### Ingredients
+## What we learned
+We learned a lot from the intro workshops! We attended the GCP + Firebase workshop as well as some of the beginner workshops and learned a lot about how to use FIrebase, create a web app, and how to generally approch a hackathon project. 
 
-- [Vue.js webpack-simple template](https://github.com/vuejs-templates/webpack-simple)
-- [Firebase](https://firebase.google.com)
-- [Material Design Icons](https://materialdesignicons.com/)
-- Page loader by [Tobias Ahlin](http://tobiasahlin.com/spinkit/)
-- [Roboto](https://fonts.google.com/specimen/Roboto) font from Google fonts
-
-### Getting started with development
-
-- Clone this repo.
-- Create a project in [Firebase](https://console.firebase.google.com/). Note, the app would also run with the default Firebase config included in the project. But its advised to replace it with your own Firebase project.
-- Turn on [Twitter](https://firebase.google.com/docs/auth/web/twitter-login) & [Facebook](https://firebase.google.com/docs/auth/web/facebook-login) in your Firebase project.
-- Replace the Firebase credentials in `auth.js`.
-- Run `npm install` to install all dependencies.
-- Run `npm run dev` to spin the local server and access your cool app on `localhost:8080`.
-
-### Deployment
-
-- Run `npm run build` to build the project.
-- If you are using Github pages for deployment, you can simply run `build-gh-pages.sh` instead.
-
-[Read more about deployment](https://github.com/chinchang/vuejsfire-hackathon-starter/wiki#deployment).
-
-### License
-
-Open source under The MIT License
+## What's next for wics-events
+One of the original ideas we had was to create a checkin app that relied on Geolocation. The initial plan was to create an app that took a user's Geolocation into account, and during the event time, would send a push notification to the user with the option to sign in, once they were in the event radius. We hope to implement this inital idea in the future!\
