@@ -4,7 +4,7 @@
 The struggle of creating Google sign in form for every event, and manually having to track attendance. We also wanted to tackle the low attendance issue that we've been having with virtual events. One of the issues was a lack of reliable communication with members of our organization, that we aren't able to solve with just a messaging app or social media. The goal is to bridge the communication gap that we're currently experiencing. 
 
 ## What it does
-As officers of the Women in Computer Science organization, we want to streamline sign ins for events and communication between the officers and members. This app is a central location to sign in to events. Members can submit feedback about an event as well, and are notified about upcoming events. Though this app isn't fully functioning as of yet, we hope to get it working to use in the future. 
+We want to streamline sign ins for events and communication between the officers and members. This app is a central location to sign in to events. Members can submit feedback about an event as well, and are notified about upcoming events. Though this app isn't fully functioning as of yet, we hope to get it working to use in the future. 
 
 ## How we built it
 We used Firebase for the backend work. Specifically, we use the Authentication feature provided by GCP and a basic Firestore database. 
