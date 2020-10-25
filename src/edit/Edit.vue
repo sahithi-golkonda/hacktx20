@@ -64,7 +64,7 @@ export default {
       } else {
         // TODO: Add sample actors
         this.title = ''
-        this.dialogue = '1: Hello!\n1: I am a dummy character\n2: Mee too!\n1: Delete and add characters of your own\n2: Or simply play with us!';
+        this.dialogue = '1: Hello!\n1: Thanks for attending this WiCS event!\n2: Please sign in, and let us know if you have any feedback.';
       }
     }
   },
